@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FKWebSocketHeader.h"
+#import "FKIMClient.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    FKIMClient *client = [[FKIMClient alloc] initWithClientId:@"FOrKid"];
+    
+    [client openWithCallback:^(BOOL successed, NSError *error) {
+        NSLog(@"open %@", successed ? @"YES" : @"NO");
+    }];
     
 }
 

@@ -14,6 +14,18 @@
 		71B8AD2B1F0CB404001FB259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AD2A1F0CB404001FB259 /* Assets.xcassets */; };
 		71B8AD2E1F0CB404001FB259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B8AD2C1F0CB404001FB259 /* LaunchScreen.storyboard */; };
 		71B8AD381F0CB74F001FB259 /* FKIMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD371F0CB74F001FB259 /* FKIMClient.m */; };
+		71B8AD5E1F0CC197001FB259 /* FKIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD5D1F0CC197001FB259 /* FKIMMessage.m */; };
+		71B8AD611F0CC402001FB259 /* FKIMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD601F0CC402001FB259 /* FKIMConfig.m */; };
+		71B8AD641F0CC76A001FB259 /* FKIMSendMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD631F0CC76A001FB259 /* FKIMSendMessage.m */; };
+		71B8AD671F0CC779001FB259 /* FKIMReceiveMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD661F0CC779001FB259 /* FKIMReceiveMessage.m */; };
+		71B8AD6A1F0CC786001FB259 /* FKIMErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD691F0CC786001FB259 /* FKIMErrorMessage.m */; };
+		71B8AD961F0CD210001FB259 /* FKWebSocketDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD951F0CD210001FB259 /* FKWebSocketDelegate.m */; };
+		71B8AD9B1F0CE399001FB259 /* NSString+FKWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD9A1F0CE399001FB259 /* NSString+FKWebSocket.m */; };
+		71B8ADA71F0CEDF0001FB259 /* FKBaseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8AD9E1F0CEDF0001FB259 /* FKBaseMessage.m */; };
+		71B8ADA81F0CEDF0001FB259 /* FKSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ADA01F0CEDF0001FB259 /* FKSocketClient.m */; };
+		71B8ADA91F0CEDF0001FB259 /* FKSocketClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ADA21F0CEDF0001FB259 /* FKSocketClientConfig.m */; };
+		71B8ADAA1F0CEDF0001FB259 /* FKSocketReceiveMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ADA41F0CEDF0001FB259 /* FKSocketReceiveMessage.m */; };
+		71B8ADAB1F0CEDF0001FB259 /* FKSocketSendMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8ADA61F0CEDF0001FB259 /* FKSocketSendMessage.m */; };
 		C54FA4CA31E8764EA71F324D /* libPods-FKWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1E32078D51965BCFDB4FF8 /* libPods-FKWebSocket.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +44,32 @@
 		71B8AD2F1F0CB404001FB259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B8AD361F0CB74F001FB259 /* FKIMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMClient.h; sourceTree = "<group>"; };
 		71B8AD371F0CB74F001FB259 /* FKIMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMClient.m; sourceTree = "<group>"; };
+		71B8AD5C1F0CC197001FB259 /* FKIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMMessage.h; sourceTree = "<group>"; };
+		71B8AD5D1F0CC197001FB259 /* FKIMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMMessage.m; sourceTree = "<group>"; };
+		71B8AD5F1F0CC402001FB259 /* FKIMConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMConfig.h; sourceTree = "<group>"; };
+		71B8AD601F0CC402001FB259 /* FKIMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMConfig.m; sourceTree = "<group>"; };
+		71B8AD621F0CC76A001FB259 /* FKIMSendMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMSendMessage.h; sourceTree = "<group>"; };
+		71B8AD631F0CC76A001FB259 /* FKIMSendMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMSendMessage.m; sourceTree = "<group>"; };
+		71B8AD651F0CC779001FB259 /* FKIMReceiveMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMReceiveMessage.h; sourceTree = "<group>"; };
+		71B8AD661F0CC779001FB259 /* FKIMReceiveMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMReceiveMessage.m; sourceTree = "<group>"; };
+		71B8AD681F0CC786001FB259 /* FKIMErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKIMErrorMessage.h; sourceTree = "<group>"; };
+		71B8AD691F0CC786001FB259 /* FKIMErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKIMErrorMessage.m; sourceTree = "<group>"; };
+		71B8AD941F0CD210001FB259 /* FKWebSocketDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKWebSocketDelegate.h; sourceTree = "<group>"; };
+		71B8AD951F0CD210001FB259 /* FKWebSocketDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKWebSocketDelegate.m; sourceTree = "<group>"; };
+		71B8AD971F0CD470001FB259 /* FKWebSocketHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKWebSocketHeader.h; sourceTree = "<group>"; };
+		71B8AD981F0CD5D4001FB259 /* FKWebSocketCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKWebSocketCommon.h; sourceTree = "<group>"; };
+		71B8AD991F0CE399001FB259 /* NSString+FKWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FKWebSocket.h"; sourceTree = "<group>"; };
+		71B8AD9A1F0CE399001FB259 /* NSString+FKWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FKWebSocket.m"; sourceTree = "<group>"; };
+		71B8AD9D1F0CEDF0001FB259 /* FKBaseMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKBaseMessage.h; sourceTree = "<group>"; };
+		71B8AD9E1F0CEDF0001FB259 /* FKBaseMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKBaseMessage.m; sourceTree = "<group>"; };
+		71B8AD9F1F0CEDF0001FB259 /* FKSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSocketClient.h; sourceTree = "<group>"; };
+		71B8ADA01F0CEDF0001FB259 /* FKSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSocketClient.m; sourceTree = "<group>"; };
+		71B8ADA11F0CEDF0001FB259 /* FKSocketClientConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSocketClientConfig.h; sourceTree = "<group>"; };
+		71B8ADA21F0CEDF0001FB259 /* FKSocketClientConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSocketClientConfig.m; sourceTree = "<group>"; };
+		71B8ADA31F0CEDF0001FB259 /* FKSocketReceiveMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSocketReceiveMessage.h; sourceTree = "<group>"; };
+		71B8ADA41F0CEDF0001FB259 /* FKSocketReceiveMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSocketReceiveMessage.m; sourceTree = "<group>"; };
+		71B8ADA51F0CEDF0001FB259 /* FKSocketSendMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKSocketSendMessage.h; sourceTree = "<group>"; };
+		71B8ADA61F0CEDF0001FB259 /* FKSocketSendMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKSocketSendMessage.m; sourceTree = "<group>"; };
 		93329D0634B794BD9C921237 /* Pods-FKWebSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FKWebSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-FKWebSocket/Pods-FKWebSocket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +115,7 @@
 		71B8AD1D1F0CB404001FB259 /* FKWebSocket */ = {
 			isa = PBXGroup;
 			children = (
+				71B8AD9C1F0CEDF0001FB259 /* FKWebSocketOrigin */,
 				71B8AD351F0CB68E001FB259 /* FKWebSocket */,
 				71B8AD211F0CB404001FB259 /* AppDelegate.h */,
 				71B8AD221F0CB404001FB259 /* AppDelegate.m */,
@@ -102,10 +141,43 @@
 		71B8AD351F0CB68E001FB259 /* FKWebSocket */ = {
 			isa = PBXGroup;
 			children = (
+				71B8AD941F0CD210001FB259 /* FKWebSocketDelegate.h */,
+				71B8AD951F0CD210001FB259 /* FKWebSocketDelegate.m */,
 				71B8AD361F0CB74F001FB259 /* FKIMClient.h */,
 				71B8AD371F0CB74F001FB259 /* FKIMClient.m */,
+				71B8AD5F1F0CC402001FB259 /* FKIMConfig.h */,
+				71B8AD601F0CC402001FB259 /* FKIMConfig.m */,
+				71B8AD5C1F0CC197001FB259 /* FKIMMessage.h */,
+				71B8AD5D1F0CC197001FB259 /* FKIMMessage.m */,
+				71B8AD621F0CC76A001FB259 /* FKIMSendMessage.h */,
+				71B8AD631F0CC76A001FB259 /* FKIMSendMessage.m */,
+				71B8AD651F0CC779001FB259 /* FKIMReceiveMessage.h */,
+				71B8AD661F0CC779001FB259 /* FKIMReceiveMessage.m */,
+				71B8AD681F0CC786001FB259 /* FKIMErrorMessage.h */,
+				71B8AD691F0CC786001FB259 /* FKIMErrorMessage.m */,
+				71B8AD971F0CD470001FB259 /* FKWebSocketHeader.h */,
+				71B8AD981F0CD5D4001FB259 /* FKWebSocketCommon.h */,
+				71B8AD991F0CE399001FB259 /* NSString+FKWebSocket.h */,
+				71B8AD9A1F0CE399001FB259 /* NSString+FKWebSocket.m */,
 			);
 			path = FKWebSocket;
+			sourceTree = "<group>";
+		};
+		71B8AD9C1F0CEDF0001FB259 /* FKWebSocketOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				71B8AD9D1F0CEDF0001FB259 /* FKBaseMessage.h */,
+				71B8AD9E1F0CEDF0001FB259 /* FKBaseMessage.m */,
+				71B8AD9F1F0CEDF0001FB259 /* FKSocketClient.h */,
+				71B8ADA01F0CEDF0001FB259 /* FKSocketClient.m */,
+				71B8ADA11F0CEDF0001FB259 /* FKSocketClientConfig.h */,
+				71B8ADA21F0CEDF0001FB259 /* FKSocketClientConfig.m */,
+				71B8ADA31F0CEDF0001FB259 /* FKSocketReceiveMessage.h */,
+				71B8ADA41F0CEDF0001FB259 /* FKSocketReceiveMessage.m */,
+				71B8ADA51F0CEDF0001FB259 /* FKSocketSendMessage.h */,
+				71B8ADA61F0CEDF0001FB259 /* FKSocketSendMessage.m */,
+			);
+			path = FKWebSocketOrigin;
 			sourceTree = "<group>";
 		};
 		C7BF250B2E7D1DF1A76CEE55 /* Frameworks */ = {
@@ -238,9 +310,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B8ADA81F0CEDF0001FB259 /* FKSocketClient.m in Sources */,
+				71B8AD6A1F0CC786001FB259 /* FKIMErrorMessage.m in Sources */,
+				71B8AD611F0CC402001FB259 /* FKIMConfig.m in Sources */,
+				71B8ADAA1F0CEDF0001FB259 /* FKSocketReceiveMessage.m in Sources */,
+				71B8AD9B1F0CE399001FB259 /* NSString+FKWebSocket.m in Sources */,
+				71B8ADA71F0CEDF0001FB259 /* FKBaseMessage.m in Sources */,
 				71B8AD261F0CB404001FB259 /* ViewController.m in Sources */,
+				71B8ADA91F0CEDF0001FB259 /* FKSocketClientConfig.m in Sources */,
 				71B8AD381F0CB74F001FB259 /* FKIMClient.m in Sources */,
+				71B8ADAB1F0CEDF0001FB259 /* FKSocketSendMessage.m in Sources */,
+				71B8AD641F0CC76A001FB259 /* FKIMSendMessage.m in Sources */,
 				71B8AD231F0CB404001FB259 /* AppDelegate.m in Sources */,
+				71B8AD961F0CD210001FB259 /* FKWebSocketDelegate.m in Sources */,
+				71B8AD5E1F0CC197001FB259 /* FKIMMessage.m in Sources */,
+				71B8AD671F0CC779001FB259 /* FKIMReceiveMessage.m in Sources */,
 				71B8AD201F0CB404001FB259 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +486,7 @@
 				71B8AD341F0CB404001FB259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

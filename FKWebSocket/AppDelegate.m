@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FKIMConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    [FKIMConfig defaultConfig].webSocketURLString = @"ws://47.93.254.46";
+    
+    [FKIMConfig defaultConfig].port = @"9111";
+    
+    
     return YES;
 }
 
