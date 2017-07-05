@@ -7,7 +7,7 @@
 //
 
 #import "FKSocketClient.h"
-#import <SRWebSocket.h>
+#import <SocketRocket/SRWebSocket.h>
 
 NSString *const kFKSocketURLString = @"ws://47.93.254.46:9111";
 
